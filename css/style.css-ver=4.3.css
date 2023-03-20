@@ -1,0 +1,305 @@
+
+
+#sidebar {
+	float: left;
+	width: 300px;
+    margin: 35px 0 0 18px;
+}
+
+
+.widget{
+	margin: 0 0 18px 0;
+	clear: both;
+	overflow: hidden;
+}
+.widget h3.widget-title {
+	text-transform: none;
+	font-size: 22px;
+	margin: 10px 5px 30px 15px;
+	padding: 0 0 6px 0;
+    font-weight: bold;
+}
+.widget a{
+	text-decoration: none;
+}
+.widget ul {padding: 0;}
+.widget ul li  { 
+	padding-left: 18px; 
+	list-style:none; 
+}
+
+.widget .entry-content {
+    padding: 0;
+    background: none;
+}
+
+/* ВИДЖЕТ ПОСЛЕДНИЕ ПОСТЫ */
+
+.reviews_widget .entry-wrapper {
+	float: left;
+	margin: 20px 0px 20px 0px;
+	width: 280px;
+}
+.reviews_widget .entry-thumb {
+	float: left;
+	position: relative;
+	margin: 0 15px 0 0;
+}
+.reviews_widget .entry-thumb  a {
+    height: 79px;
+}
+.reviews_widget .entry-title {
+	font-size: 13px;
+	font-family: Georgia, Tahoma, sans-serif;
+	margin-bottom: 6px;
+}
+.reviews_widget .entry-wrapper .entry-meta{
+	margin: 0;
+	color: #7a7a7a;
+}
+.reviews_widget .entry-title a {
+	text-decoration: none;
+	font-size: 17px;
+}
+.reviews_widget ul.pane li {
+	padding: 0 0 12px;
+	margin: 0px 0px 12px 0px;
+	list-style: none !important;
+	overflow: hidden;
+}
+.reviews_widget ul.pane li:last-child {
+	background: none;
+	padding: 0;
+}
+/* Виджет социальные сети */
+
+.sidebar-social a {
+	float: right;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	07.	Подвал
+/*-----------------------------------------------------------------------------------*/
+
+#pref {
+	text-align: center;
+	padding-bottom: 36px;
+}
+#prefinner {
+	width: 980px;
+	padding: 35px 0 0 0;
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+}
+
+#footborder{
+	height: 2px;
+}
+#footinner {
+	width: 980px;
+	padding: 0;
+	margin: 6px auto 0px;
+	font-size: 11px;
+	overflow: hidden;
+}
+.alignleft {
+	float: left;
+	margin: 0px 12px 12px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0px 0 12px 12px;
+}
+.aligncenter{
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+/*-----------------------------------------------------------------------------------*/
+/*	08.	Разное
+/*-----------------------------------------------------------------------------------*/
+
+/* Кнопки соцсетей */
+/* Рекомендуем прочитать */
+.dlok-social,
+.dlok-rekpro{
+	padding: 0 5px 0 5px;
+	border: 1px solid;
+	border-radius: 4px;
+	border-color: #BBB;
+	text-align: center;
+	/*background: #ffffff; /* Old browsers */
+	/*background: -moz-linear-gradient(top,  #ffffff 25%, #ededed 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top,  #ffffff 25%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top,  #ffffff 25%,#ededed 100%); /* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top,  #ffffff 25%,#ededed 100%); /* IE10+ */
+	/*background: linear-gradient(to bottom,  #ffffff 25%,#ededed 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+	margin: 24px 17px 0px 17px;
+}
+.dlok-social-img{
+	padding: 0 5px 0 5px;
+	margin: 0px 9% 24px 18%;
+}
+.box-social{
+	margin-bottom: 24px;
+}
+
+#social h6,
+#rekpro h6 {
+	display: block;
+	margin-before: 1.33em;
+	margin-after: 1.33em;
+	margin-start: 0px;
+	margin-end: 0px;
+	/*font-weight: bold;*/
+	color: #ed1c24;
+	margin: 10px 0 20px 0;
+}
+
+
+
+/* Конец Кнопки соцсетей */
+/* Конец рекомендуем прочитать */
+
+/* Реклама под заголовком статьи */
+.ads-top{
+	text-align: center;
+	margin-bottom: 0px;
+}
+/* Конец рекламы под заголовком статьи */
+
+/* Реклама под заголовком image */
+.ads-top-image{
+	text-align: center;
+	margin: 0px 0 20px 0;
+	padding-top: 20px;
+}
+/* Конец рекламы под заголовком image */
+
+/* Реклама в боковой колонке */
+#reclam_ads{
+	text-align: center;
+}
+/* Конец рекламы в боковой колонке */
+
+/* Реклама в конце статьи */
+.ads-bottom{
+	text-align: center;
+	margin-bottom: 0px;
+}
+/* Конец рекламы в конце статьи */
+
+.clear {
+	clear: both;
+}
+
+
+.img-bevel {
+	display: inline-block;
+	position: relative;
+	line-height: 0;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	margin: 20px 0px 20px 0px;
+}
+article.list-big-thumb .img-bevel{
+    box-shadow: none;
+}
+.img-bevel:before,
+.before-img-bevel-fix
+ {
+	content: "";
+    height: 1px;
+    background: #ffffff;
+    opacity: 0.2;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+	top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+/*	Горизонтальные разделители  */
+
+.divider-solid {
+	height: 4px;
+	clear: both;
+	margin: 18px 0;
+	border: none;
+}
+.divider-dotted {
+	height: 2px;
+	margin: 18px 0;
+	clear: both;
+	border: none;
+}
+
+/*	Подписи к рисункам  */
+
+.wp-caption {
+	margin-bottom: 10px;
+	position: relative;
+}
+#content .wp-caption a:hover{
+	border-bottom: 1px dotted transparent;
+}
+.wp-caption .wp-caption-text {
+	font-size: 11px;
+	font-style: italic;
+	padding: 6px 12px;
+	margin: 0;
+}
+
+@media(max-width: 1000px) {
+	img {
+		max-width: 100%;
+	}
+	* {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#headerinner,
+	#contentinner,
+	#footinner,
+	#prefinner {
+		width: 760px;
+	}
+	#content {
+		width: 440px;
+		padding: 0 10px;
+	}
+	#commentform div {
+		width: 100%;
+	}
+	#commentform div textarea {
+		width: 100%;
+	}
+}
+
+@media(max-width: 760px) {
+	#headerinner,
+	#contentinner,
+	#footinner,
+	#prefinner {
+		width: 480px;
+	}
+	#content {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media(max-width: 480px) {
+	#headerinner,
+	#contentinner,
+	#footinner,
+	#prefinner {
+		width: 320px;
+	}
+}
